@@ -16,7 +16,7 @@ spec:
         - name: billing-app-back-jenkins
           image: fernandomarin115/billingapp
           ports:
-            - containerPort: 7080
+            - containerPort: 7280
               name: billingappbport
 ---
 kind: Service
